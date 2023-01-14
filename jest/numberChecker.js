@@ -11,6 +11,7 @@ const isPrime = (n) =>{
     return true;
 }
 const isArmstrong = (n) => {
+    n=n<0?n*-1:n;
     let a=n;
     let res=0;
     while(n>0){
@@ -21,7 +22,9 @@ const isArmstrong = (n) => {
     }
     return (res===a)?true:false;
 }
+module.exports = {isPrime,isArmstrong};
 
-console.log(isArmstrong(153));
+// console.log(isArmstrong(153));
 
-console.log(isPrime(2));
+// console.log(isPrime(2));
+// console.log(isPrime());
