@@ -29,3 +29,4 @@ const checkAllDigitSame2 = (num) => {
 // console.log(checkAllDigitSame2(22));
 // console.log(checkAllDigitSame2(23))
 // console.log(checkAllDigitSame2(-223))
+module.exports = {checkAllDigitSame,checkAllDigitSame2}
